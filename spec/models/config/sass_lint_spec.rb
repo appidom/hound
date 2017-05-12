@@ -30,9 +30,9 @@ describe Config::SassLint do
 
         expect(config.content).to eq(
           "rules" => {
-            "indentation" => [2, { "size" => 2 } ],
-            "brace-style" => [2, { "style" => "stroustrup"} ],
-          }
+            "indentation" => [2, { "size" => 2 }],
+            "brace-style" => [2, { "style" => "stroustrup" }],
+          },
         )
       end
     end
@@ -50,8 +50,8 @@ describe Config::SassLint do
 
         expect(config.content).to eq(
           "rules" => {
-            "indentation" => [2, { "size" => 2 } ]
-          }
+            "indentation" => [2, { "size" => 2 }],
+          },
         )
       end
     end
@@ -80,4 +80,3 @@ describe Config::SassLint do
     end
   end
 end
-
